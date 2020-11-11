@@ -1,0 +1,23 @@
+upper engine,Security Hallway
+Reactor,Security Hallway
+Security,Security Hallway
+Lower Engine,Security Hallway
+Lower Engine,Electrical Hallway
+Electrical,Electrical Hallway
+Electrical Hallway,Storage
+Storage,Admin Hallway
+Admin Hallway,Admin
+Admin Hallway,Cafeteria
+Cafeteria,Medbay Hallway
+Medbay Hallway,Medbay
+Medbay Hallway,upper engine
+Storage,Comms Hallway
+Comms Hallway,Comms
+Comms Hallway,Shields
+Shields,Shields Hallway
+Shields Hallway,Nav Hallway
+Nav Hallway,Navigation
+Nav Hallway,O2
+Nav Hallway,Weapons
+Weapons,CafWep Hallway
+Cafeteria,CafWep Hallway

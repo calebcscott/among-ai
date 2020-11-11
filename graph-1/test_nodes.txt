@@ -1,0 +1,22 @@
+upper engine,False
+Reactor,False
+Lower Engine,False
+Security,False
+Security Hallway,True
+Medbay Hallway,True
+Medbay,False
+Cafeteria,False
+Admin,False
+Storage,False
+Admin Hallway,False
+Electrical,False
+Electrical Hallway,False
+Comms,False
+Shields,False
+Comms Hallway,False
+Shields Hallway,True
+Navigation,False
+O2,False
+Nav Hallway,False
+Weapons,False
+CafWep Hallway,False
