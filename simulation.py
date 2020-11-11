@@ -75,11 +75,17 @@ class Graph():
 
 
 class Game():
+    """
+    games = []
+    for input, output in json_object:
+        games.append(Game(input, output))
+    """
     def __init__(self, data, exp_output):
         self.dead_player = data["Dead"]
         self.time_found = data["tFound"]
         self.loc_found = data["Found"]
         self.events = data["Events"]
+        self.killer = exp_output
 
     def __iter__(self):
         for e in self.events:

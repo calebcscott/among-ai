@@ -63,3 +63,35 @@ if __name__ == "__main__":
     for data in inputData:
         data.loadPlayerTimelines()
         print(data)
+
+class Search():
+    def __init__(self, graph, start, goal):
+        self.graph = graph
+        self.start = start
+        self.goal = goal
+
+    def searchGoal(self):
+
+        currentNode = graph.nodes[self.start]
+        goalNode = graph.nodes[self.goal]
+
+        visited = []
+        frontier = []
+        path = {}
+
+        frontier.append(currentNode)
+
+        while len(frontier) > 0:
+
+            currentNode = frontier.pop(0)
+
+            if currentNode in visited:
+                continue
+
+            for node, weight in graph.nodes[currentNode.get_name()]:
+                if goalNode == node:
+                    return path
+                frontier.append(node)
+
+            visited.append(currentNode)
+
