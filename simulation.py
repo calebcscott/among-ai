@@ -43,8 +43,8 @@ class Graph():
 
 
     def load_nodes(self, filename, re_format):
-        self.node_file(filename)
-        self.node_format(re_format)
+        self.node_file = filename
+        self.node_format = re_format
         pat = re.compile(re_format)
         with open(filename, "r") as node_file:
             for line in node_file:
