@@ -116,7 +116,7 @@ Function to load input data into GameTimeline objects
 """
 def loadInputData(fileName) -> List[GameTimeline]:
     inputData = []
-    with open(f'time_graph_test-10-1.json', 'r') as file:
+    with open(fileName, 'r') as file:
         data = json.load(file)
     for game, killer in data:
         inputData.append(GameTimeline(Game(game, ''), killer))
@@ -127,14 +127,17 @@ def loadInputData(fileName) -> List[GameTimeline]:
 MAIN METHOD BIOTCHES
 """
 if __name__ == "__main__":
-    inputData: List[GameTimeline] = loadInputData('time_graph_test-10-1.json')
-
+    inputData: List[GameTimeline] = loadInputData('./graph-1/test_data/testPrint-10-10.json')
+    counter = 0
     for data in inputData:
         data.loadPlayerTimelines()
         coins = data.getCoincidences('Admin Hallway', 8, 1)
+        print(f"Game: {counter}")
+        counter += 1
         print(data)
+        
         for coin in coins:
             print(f"player: {coin['player']}")
             print(f"location: {coin['location']}")
             print(f"time: {coin['time']}")
-
+    pass
