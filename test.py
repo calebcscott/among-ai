@@ -12,9 +12,9 @@ class SecurityCamera(BaseNode):
     def is_camera(self):
         return self.camera
 
-def load_graph(node_file, edge_file):
+def load_graph(node_file, edge_file, NodeType=SecurityCamera):
 
-    g = Graph(SecurityCamera)
+    g = Graph(NodeType)
 
     g.load_nodes(node_file, r'([\w ]+),([\w ]+)')
     g.load_edges(edge_file, r'([\w ]+),([\w ]+)')
