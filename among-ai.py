@@ -4,6 +4,9 @@ from typing import List
 from simulation import Graph, Game
 from test import load_graph
 
+"""
+
+"""
 class Search():
     def __init__(self, graph, start, goal):
         self.graph = graph
@@ -36,13 +39,18 @@ class Search():
             visited.append(currentNode)
 
 
-
-class GameTimelines():
+"""
+    Object that hold timelines and details for players in a given game
+"""
+class GameTimeline():
     def __init__(self, game: Game, killer):
         self.timelines: List[self.Player] = []
         self.game = game
         self.killer = killer
 
+    """
+        Loads individual player timelines from game data
+    """
     def loadPlayerTimelines(self):
         self.timelines = []
         for location, player, time in self.game.events:
@@ -60,6 +68,9 @@ class GameTimelines():
                 })
                 self.timelines.append(data)
 
+    """
+        finds players at a specified location within a given time range
+    """
     def getCoincidences(self, location, time, timeRange) -> list:
         returnList = []
         for player in self.timelines:
@@ -76,7 +87,9 @@ class GameTimelines():
         
         return returnList
             
-
+    """
+    Object to hold a player identifier and their timeline
+    """
     class Player():
             def __init__(self, player):
                 self.player = player
@@ -88,9 +101,6 @@ class GameTimelines():
                     returnString += '\tTime: ' + str(time['time']) + ' Location: ' + time['location'] + '\n'
                 return returnString
 
-    
-
-
     def __str__(self) -> str:
         returnString = 'Killer: ' + str(self.killer) + ' Victim: ' + str(self.game.dead_player) + '\n'
         for player in self.timelines:
@@ -98,18 +108,23 @@ class GameTimelines():
 
         return returnString
 
-def loadInputData(fileName) -> List[GameTimelines]:
+"""
+Function to load input data into GameTimeline objects
+"""
+def loadInputData(fileName) -> List[GameTimeline]:
     inputData = []
     with open(f'time_graph_test-10-1.json', 'r') as file:
         data = json.load(file)
     for game, killer in data:
-        inputData.append(GameTimelines(Game(game, ''), killer))
+        inputData.append(GameTimeline(Game(game, ''), killer))
     return inputData
 
 
-
+"""
+MAIN METHOD BIOTCHES
+"""
 if __name__ == "__main__":
-    inputData: List[GameTimelines] = loadInputData('time_graph_test-10-1.json')
+    inputData: List[GameTimeline] = loadInputData('time_graph_test-10-1.json')
     graph = load_graph("./graph-1/test_nodes.txt", "./graph-1/test_edges.txt")
 
     for data in inputData:
