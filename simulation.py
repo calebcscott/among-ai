@@ -72,3 +72,15 @@ class Graph():
 # Allows for dynamic Graph generation
 # Graph Class will read in Edges from file
 # Allows for dynamic changes to Graph without changing Code
+
+
+class Game():
+    def __init__(self, data, exp_output):
+        self.dead_player = data["Dead"]
+        self.time_found = data["tFound"]
+        self.loc_found = data["Found"]
+        self.events = data["Events"]
+
+    def __iter__(self):
+        for e in self.events:
+            yield e
