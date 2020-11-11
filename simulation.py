@@ -1,7 +1,7 @@
 import re
 
 
-# Defnie Base Node Class
+# Define Base Node Class
 """ Node object to contain information of the current Node i.e. Name, Position(x,y), attributes, etc. 
         Edges not an attribute of Node but Attribute of Graph
 """

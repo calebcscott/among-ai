@@ -1,0 +1,24 @@
+Assumptions:
+    Player:
+        - any player can report the body (this includes the killer)
+        Killer:
+            - there is only one
+            - will only kill in a room alone with the victim
+            - only one person killed per game
+            - Kill will be considered only after all players have moved
+        Cremates
+            - they move randomly among the graph
+            - they will only be in a node for 1 interaction
+
+    Algorithm
+        - AI will first create fragmented timelines for all players
+            ex.
+                Player1: {(upper engine, 14), (Medbay, 23), (cafeteria, 34)}
+                Player2: {(upper engine, 14), (Medbay, 23), (cafeteria, 34)}
+                Player3: {(upper engine, 14), (Medbay, 23), (cafeteria, 34)}
+                Player4: {(upper engine, 14), (Medbay, 23), (cafeteria, 34)}
+
+        - Next the AI will generate possible paths that the killer could have taken to and from the body. 
+            ex.
+                Body found in lower 
+        
