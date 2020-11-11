@@ -4,7 +4,7 @@ from typing import List
 from simulation import Graph
 from test import load_graph
 
-input_data = {}
+input_data = []
 num_of_players = 3
 
 graph = load_graph("./graph-1/test_nodes.txt", "./graph-1/test_edges.txt")
@@ -12,6 +12,9 @@ graph = load_graph("./graph-1/test_nodes.txt", "./graph-1/test_edges.txt")
 for game in input_data:
     pprint.pprint(game)
     break
+
+def loadInputData(fileName):
+    file = open(fileName)
 
 class PlayerTimelines():
     def __init__(self, game):
