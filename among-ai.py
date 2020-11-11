@@ -18,8 +18,8 @@ class Search():
     """
     def searchGoal(self):
 
-        currentNode = graph.nodes[self.start]
-        goalNode = graph.nodes[self.goal]
+        currentNode =self.graph.nodes[self.start]
+        goalNode = self.graph.nodes[self.goal]
 
         visited = []
         frontier = []
@@ -128,7 +128,6 @@ MAIN METHOD BIOTCHES
 """
 if __name__ == "__main__":
     inputData: List[GameTimeline] = loadInputData('time_graph_test-10-1.json')
-    graph = load_graph("./graph-1/test_nodes.txt", "./graph-1/test_edges.txt")
 
     for data in inputData:
         data.loadPlayerTimelines()
