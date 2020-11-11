@@ -37,7 +37,7 @@ class Search():
 
 
 
-class PlayerTimelines():
+class GameTimelines():
     def __init__(self, game: Game, killer):
         self.timelines: List[self.Player] = []
         self.game = game
@@ -48,52 +48,76 @@ class PlayerTimelines():
         for location, player, time in self.game.events:
             if player in list(map((lambda player: player.player), self.timelines)):
                 index = list(map(lambda player: player.player, self.timelines)).index(player)
-                self.timelines[index].Timeline.append({
-                    time: time,
-                    location: location
+                self.timelines[index].timeline.append({
+                    'time': time,
+                    'location': location
                 })
             else:
                 data = self.Player(player)
-                data.Timeline.append({
-                    time: time,
-                    location: location
+                data.timeline.append({
+                    'time': time,
+                    'location': location
                 })
                 self.timelines.append(data)
+
+    def getCoincidences(self, location, time, timeRange) -> list:
+        returnList = []
+        for player in self.timelines:
+            if location in list(map(lambda time: time['location'], player.timeline)):
+                indexes = [i for i, x in enumerate(list(map(lambda time: time['location'], player.timeline))) if x == location]
+                for index in indexes:
+                    for time in range(time - timeRange, time + timeRange + 1):
+                        if time == player.timeline[index]['time']:
+                            returnList.append({
+                                'player': player.player,
+                                'time': time,
+                                'location': location
+                            })
+        
+        return returnList
             
 
     class Player():
             def __init__(self, player):
                 self.player = player
-                self.Timeline = []
+                self.timeline = []
             
             def __str__(self) -> str:
                 returnString = 'Player:\t' + str(self.player) + '\n'
-                for time, location in self.Timeline:
-                    returnString += '\tTime: ' + str(time) + ' Location: ' + location + '\n'
+                for time in self.timeline:
+                    returnString += '\tTime: ' + str(time['time']) + ' Location: ' + time['location'] + '\n'
                 return returnString
 
+    
+
+
     def __str__(self) -> str:
-        returnString = 'Killer: ' + str(self.killer) + ' Victim:' + str(self.game.dead_player) + '\n'
+        returnString = 'Killer: ' + str(self.killer) + ' Victim: ' + str(self.game.dead_player) + '\n'
         for player in self.timelines:
             returnString += str(player)
 
         return returnString
 
-def loadInputData(fileName) -> List[PlayerTimelines]:
+def loadInputData(fileName) -> List[GameTimelines]:
     inputData = []
     with open(f'time_graph_test-10-1.json', 'r') as file:
         data = json.load(file)
     for game, killer in data:
-        inputData.append(PlayerTimelines(Game(game, ''), killer))
+        inputData.append(GameTimelines(Game(game, ''), killer))
     return inputData
 
 
 
 if __name__ == "__main__":
-    inputData: List[PlayerTimelines] = loadInputData('time_graph_test-10-1.json')
+    inputData: List[GameTimelines] = loadInputData('time_graph_test-10-1.json')
     graph = load_graph("./graph-1/test_nodes.txt", "./graph-1/test_edges.txt")
 
     for data in inputData:
         data.loadPlayerTimelines()
+        coins = data.getCoincidences('Admin Hallway', 8, 1)
         print(data)
+        for coin in coins:
+            print(f"player: {coin['player']}")
+            print(f"location: {coin['location']}")
+            print(f"time: {coin['time']}")
 
