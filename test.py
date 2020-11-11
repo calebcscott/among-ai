@@ -100,7 +100,7 @@ def game(g, num_of_players):
 
 
 if __name__ == "__main__":
-    # test.py node_file.txt edge_file.txt out_file.txt {# of players} {# of games}
+    # for i in {5..10}; do python3 test.py ./graph-1/test_nodes.txt ./graph-1/test_edges.txt FILE_NAME $i 1000; done
     node_file = sys.argv[1]
     edge_file = sys.argv[2]
     out_file = sys.argv[3]
@@ -116,5 +116,5 @@ if __name__ == "__main__":
 
     pprint.pprint(game_output)
 
-    with open(f'{out_file}-{num_of_players}-{num_of_games}.json', "w") as file:
+    with open(f'./graph-1/test_data/{out_file}-{num_of_players}-{num_of_games}.json', "w") as file:
         json.dump(game_output, file)

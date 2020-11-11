@@ -13,6 +13,9 @@ class Search():
         self.start = start
         self.goal = goal
 
+    """
+
+    """
     def searchGoal(self):
 
         currentNode = graph.nodes[self.start]
