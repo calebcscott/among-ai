@@ -1,5 +1,6 @@
 import json
 import pprint
+import queue
 from typing import List
 from simulation import Graph, Game
 from test import load_graph
@@ -7,39 +8,106 @@ from test import load_graph
 """
 
 """
-class Search():
-    def __init__(self, graph, start, goal):
+class PriorityQueue(object):
+    def __init__(self):
+        self.queue = []
+
+    def __str__(self):
+        return ' '.join([str(i) for i in self.queue])
+
+        # for checking if the queue is empty
+
+    def isEmpty(self):
+        return len(self.queue) == 0
+
+    # for inserting an element in the queue
+    def insert(self, data):
+        self.queue.append(data)
+
+        # for popping an element based on Priority
+
+    def get(self):
+        try:
+            max = 0
+            for i in range(len(self.queue)):
+                if self.queue[i] > self.queue[max]:
+                    max = i
+            item = self.queue[max]
+            del self.queue[max]
+            return item
+        except IndexError:
+            print()
+            exit()
+
+class State(object):
+    def __init__(self, graph, name, parent, start = 0, goal = 0):
         self.graph = graph
+        self.children = []
+        self.parent = parent
+        self.name = name
+        self.dist = 0
+        if parent:
+            self.path = parent.path[:]
+            self.path.append(name)
+            self.start = parent.start
+            self.goal = self.goal
+        else:
+            self.path = [name]
+            self.start = start
+            self.goal = goal
+    def GetDistance(self):
+        pass
+    def CreateChildren(self):
+        pass
+
+class State_String(State):
+    def __init__(self, name, parent, start = 0, goal = 0):
+        super(State_String, self).__init__(name, parent, start, goal)
+        self.dist = self.GetDistance()
+
+    """test distance function"""
+    def GetDistance(self):
+        if self.name == self.goal:
+            return 0
+        dist = 0
+        for i in range(len(self.goal)):
+            letter = self.goal[i]
+            dist += abs(i - self.name.index(letter))
+        return dist
+
+    def CreateChildren(self):
+        if not self.children:
+            for i in xrange(len(self.goal) - 1):
+                """add all possible states connected by"""
+
+class AStar:
+    def __init__(self, start, goal):
+        self.path = []
+        self.vistitedQueue = []
+        self.priotiryQueue = PriorityQueue()
         self.start = start
         self.goal = goal
 
-    """
+    def Solve(self):
+        startState = State_String(self.start, 0, self.start, self.goal)
+        count = 0
+        self.priotiryQueue.insert(0, count, startState)
+        while(not self.path and not self.priotiryQueue.isEmpty()):
+            closestChild = self.priotiryQueue.get()[2] # not sure what the [2] does
+            closestChild.CreateChilden()
+            self.vistitedQueue.insert(closestChild.name)
+            for child in closestChild.children:
+                if child.name not in self.vistitedQueue:
+                    count += 1
+                    if not child.dist:
+                        self.path = child.path
+                        break
+                    self.priotiryQueue.insert(child.dist, count, child)
+        if not self.path:
+            print(self.goal+" not possible to reach")
+        return self.path
 
-    """
-    def searchGoal(self):
 
-        currentNode =self.graph.nodes[self.start]
-        goalNode = self.graph.nodes[self.goal]
-
-        visited = []
-        frontier = []
-        path = {}
-
-        frontier.append(currentNode)
-
-        while len(frontier) > 0:
-
-            currentNode = frontier.pop(0)
-
-            if currentNode in visited:
-                continue
-
-            for node, weight in graph.nodes[currentNode.get_name()]:
-                if goalNode == node:
-                    return path
-                frontier.append(node)
-
-            visited.append(currentNode)
 
 
 """
@@ -140,4 +208,14 @@ if __name__ == "__main__":
             print(f"player: {coin['player']}")
             print(f"location: {coin['location']}")
             print(f"time: {coin['time']}")
+
+    """
+    start = some node
+    goal = some node
+    graoh = loadGraph somhow
+    a = AStar_Solver( start, goal)
+    a.Solve()
+    for i in range(len(a.path)):
+        print(a.path[i]+" ")
+    """
     pass
