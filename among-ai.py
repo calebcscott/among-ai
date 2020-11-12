@@ -77,7 +77,7 @@ class State_String(State):
 
     def CreateChildren(self):
         if not self.children:
-            for i in xrange(len(self.goal) - 1):
+            for i in range(len(self.goal) - 1):
                 """add all possible states connected by"""
 
 class AStar:
