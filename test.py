@@ -53,6 +53,10 @@ def game(g, num_of_players, buffer=1):
         "Events" : []
     }
 
+    all_events  = {
+        "Events" : []
+    }
+
     
 
     players = create_players(num_of_players, starting_node)
@@ -78,7 +82,7 @@ def game(g, num_of_players, buffer=1):
             if g.nodes[choice.get_name()].is_camera():
                 attributes["Events"].append( (choice.get_name(), player, time))
                 #update_times(attributes, choice.get_name(), player, time)
-
+            all_events["Events"].append( (choice.get_name(), player, time))
             # check for body
             if attributes["Dead"] and choice.get_name() == players[attributes["Dead"]] and not attributes["Found"]:
                 attributes["Found"] = True
@@ -101,30 +105,44 @@ def game(g, num_of_players, buffer=1):
         # increment time
         time += 1
 
-    return (attributes, killer)
+    return (attributes, killer, all_events)
 
 
 if __name__ == "__main__":
-    # test.py node_file.txt edge_file.txt out_file.txt {# of players} {# of games} buffer
+    # test.py node_file.txt edge_file.txt out_file.txt {# of players} {# of games} buffer [--all]
     # for i in {5..10}; do python3 test.py ./graph-1/test_nodes.txt ./graph-1/test_edges.txt FILE_NAME $i 1000; done
+    all = False
+    game_output = []
+    all_events = []
+    buffer = 1
+    
+    if "--all" in sys.argv:
+        all = True
+        sys.argv.pop(sys.argv.index("--all"))
+
     node_file = sys.argv[1]
     edge_file = sys.argv[2]
     out_file = sys.argv[3]
     num_of_players = int(sys.argv[4])
     num_of_games = int(sys.argv[5])
-    buffer = 1
 
+    
     if len(sys.argv) > 6:
-        buffer = sys.argv[6]
-
-    game_output = []
-    print(node_file)
+        buffer = int(sys.argv[6])
+    
     graph = load_graph(node_file, edge_file)
+
     for i in range(num_of_games):
-        game_out = game(graph, num_of_players, buffer)
-        game_output.append(game_out)
+        game_out, killer, all_e = game(graph, num_of_players, buffer)
+        game_output.append((game_out, killer))
+        all_events.append(all_e)
 
     pprint.pprint(game_output)
 
     with open(f'./graph-1/test_data/{out_file}-{num_of_players}-{num_of_games}.json', "w") as file:
         json.dump(game_output, file)
+
+
+    if all:
+        with open(f'./graph-1/test_data/{out_file}-{num_of_players}-{num_of_games}-all-events.json', "w") as file:
+            json.dump(all_events, file)
