@@ -136,6 +136,7 @@ class GameTimeline():
                     'location': location
                 })
                 self.timelines.append(data)
+        self.timelines.sort(key=lambda timeline: timeline.player)
 
     """
         finds players at a specified location within a given time range
@@ -193,7 +194,7 @@ def loadInputData(fileName) -> List[GameTimeline]:
 MAIN METHOD BIOTCHES
 """
 if __name__ == "__main__":
-    inputData: List[GameTimeline] = loadInputData('./graph-1/test_data/testPrint-10-10.json')
+    inputData: List[GameTimeline] = loadInputData('./graph-1/test_data/progress_report-10-1.json')
     counter = 0
     for data in inputData:
         data.loadPlayerTimelines()

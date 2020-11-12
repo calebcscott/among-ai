@@ -115,7 +115,7 @@ if __name__ == "__main__":
     buffer = 1
 
     if len(sys.argv) > 6:
-        buffer = sys.argv[6]
+        buffer = int(sys.argv[6])
 
     game_output = []
     print(node_file)
