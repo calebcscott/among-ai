@@ -1,6 +1,4 @@
 import json
-import pprint
-import queue
 from typing import List
 from simulation import Graph, Game
 from test import load_graph
