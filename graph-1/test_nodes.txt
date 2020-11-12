@@ -8,7 +8,7 @@ Medbay,False
 Cafeteria,False
 Admin,False
 Storage,False
-Admin Hallway,False
+Admin Hallway,True
 Electrical,False
 Electrical Hallway,False
 Comms,False
