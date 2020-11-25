@@ -88,6 +88,10 @@ def game(g, num_of_players, buffer=1):
                 attributes["Found"] = True
                 attributes["tFound"] = time 
                 attributes["Location"] = choice.get_name()
+
+                all_events["Found"] = True
+                all_events["tFound"] = time
+                all_events["Location"] = choice.get_name()
         
         # determine if killer can kill
         if time > buffer and not attributes["Dead"]:
@@ -101,6 +105,7 @@ def game(g, num_of_players, buffer=1):
             if 0 < len(victims) < 2:
                 print(f'Killed Player {victims[0]} at time {time}')
                 attributes["Dead"] = victims[0]
+                all_events["Dead"] = victims[0]
         
         # increment time
         time += 1
@@ -115,6 +120,7 @@ if __name__ == "__main__":
     game_output = []
     all_events = []
     buffer = 1
+    output_folder = "."
     
     if "--all" in sys.argv:
         all = True
@@ -135,14 +141,14 @@ if __name__ == "__main__":
     for i in range(num_of_games):
         game_out, killer, all_e = game(graph, num_of_players, buffer)
         game_output.append((game_out, killer))
-        all_events.append(all_e)
+        all_events.append((all_e, killer))
 
     pprint.pprint(game_output)
 
-    with open(f'./graph-1/test_data/{out_file}-{num_of_players}-{num_of_games}.json', "w") as file:
+    with open(f'{output_folder}/{out_file}-{num_of_players}-{num_of_games}.json', "w") as file:
         json.dump(game_output, file)
 
 
     if all:
-        with open(f'./graph-1/test_data/{out_file}-{num_of_players}-{num_of_games}-all-events.json', "w") as file:
+        with open(f'{output_folder}/{out_file}-{num_of_players}-{num_of_games}-all-events.json', "w") as file:
             json.dump(all_events, file)
