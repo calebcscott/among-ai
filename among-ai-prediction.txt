@@ -1,0 +1,5346 @@
+Game: 0
+Killer: 5 Victim: 2
+Player:	1
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Shields Hallway
+Player:	3
+	Time: 9 Location: Shields Hallway
+	Time: 15 Location: Shields Hallway
+Player:	4
+	Time: 3 Location: Shields Hallway
+	Time: 15 Location: Shields Hallway
+Player:	5
+	Time: 1 Location: Shields Hallway
+	Time: 15 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 12 Location: Medbay Hallway
+	Time: 14 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Shields Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Admin Hallway
+Player:	9
+	Time: 9 Location: Admin Hallway
+Player:	10
+	Time: 5 Location: Admin Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+
+player: 8
+location: Admin Hallway
+time: 15
+Game: 1
+Killer: 8 Victim: 10
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	2
+	Time: 3 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+Player:	5
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	7
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	8
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 9 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+
+player: 9
+location: Admin Hallway
+time: 9
+Game: 2
+Killer: 6 Victim: 7
+Player:	1
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+Player:	2
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	4
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 13 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+
+player: 1
+location: Admin Hallway
+time: 9
+player: 1
+location: Admin Hallway
+time: 11
+player: 2
+location: Admin Hallway
+time: 13
+Game: 3
+Killer: 5 Victim: 2
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+
+player: 1
+location: Admin Hallway
+time: 9
+Game: 4
+Killer: 6 Victim: 4
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Medbay Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 14 Location: Shields Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 17 Location: Admin Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 9 Location: Shields Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 9 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+
+Game: 5
+Killer: 6 Victim: 5
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 9 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+
+Game: 6
+Killer: 5 Victim: 6
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 17 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+	Time: 7 Location: Security Hallway
+	Time: 15 Location: Admin Hallway
+	Time: 19 Location: Admin Hallway
+Player:	3
+	Time: 8 Location: Shields Hallway
+	Time: 10 Location: Shields Hallway
+	Time: 12 Location: Shields Hallway
+	Time: 20 Location: Shields Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 18 Location: Shields Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 9 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+	Time: 19 Location: Shields Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+	Time: 15 Location: Admin Hallway
+Player:	8
+	Time: 10 Location: Shields Hallway
+	Time: 14 Location: Shields Hallway
+	Time: 20 Location: Shields Hallway
+Player:	9
+	Time: 6 Location: Shields Hallway
+	Time: 10 Location: Shields Hallway
+	Time: 12 Location: Shields Hallway
+	Time: 16 Location: Shields Hallway
+	Time: 18 Location: Shields Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 17 Location: Admin Hallway
+	Time: 19 Location: Admin Hallway
+
+player: 2
+location: Admin Hallway
+time: 15
+Game: 7
+Killer: 6 Victim: 5
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+
+player: 1
+location: Admin Hallway
+time: 7
+Game: 8
+Killer: 1 Victim: 3
+Player:	1
+	Time: 1 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+Player:	2
+	Time: 1 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+	Time: 17 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+	Time: 15 Location: Shields Hallway
+Player:	4
+	Time: 11 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+Player:	5
+	Time: 5 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+	Time: 15 Location: Admin Hallway
+	Time: 17 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 8 Location: Admin Hallway
+	Time: 10 Location: Admin Hallway
+Player:	7
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+Player:	8
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+Player:	9
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+	Time: 15 Location: Admin Hallway
+	Time: 17 Location: Admin Hallway
+Player:	10
+	Time: 11 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+
+Game: 9
+Killer: 9 Victim: 6
+Player:	1
+	Time: 5 Location: Shields Hallway
+Player:	3
+	Time: 1 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+Player:	4
+	Time: 5 Location: Admin Hallway
+Player:	5
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Shields Hallway
+Player:	8
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+Player:	9
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+Player:	10
+	Time: 3 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+
+Game: 10
+Killer: 2 Victim: 8
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Shields Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	4
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	5
+	Time: 3 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Shields Hallway
+Player:	9
+	Time: 4 Location: Shields Hallway
+	Time: 6 Location: Shields Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+
+player: 1
+location: Admin Hallway
+time: 9
+player: 1
+location: Admin Hallway
+time: 11
+Game: 11
+Killer: 9 Victim: 6
+Player:	1
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+Player:	2
+	Time: 5 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+Player:	3
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+Player:	4
+	Time: 3 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+Player:	5
+	Time: 1 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+Player:	7
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+Player:	8
+	Time: 7 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+Player:	9
+	Time: 1 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+Player:	10
+	Time: 7 Location: Shields Hallway
+
+Game: 12
+Killer: 7 Victim: 8
+Player:	1
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	2
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	4
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	5
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 7 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	9
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+
+Game: 13
+Killer: 6 Victim: 7
+Player:	1
+	Time: 17 Location: Security Hallway
+	Time: 19 Location: Security Hallway
+	Time: 21 Location: Security Hallway
+	Time: 23 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+Player:	3
+	Time: 5 Location: Security Hallway
+	Time: 15 Location: Shields Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	5
+	Time: 3 Location: Admin Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+	Time: 23 Location: Admin Hallway
+Player:	6
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 23 Location: Medbay Hallway
+Player:	7
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Shields Hallway
+	Time: 17 Location: Shields Hallway
+Player:	9
+	Time: 11 Location: Shields Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Security Hallway
+	Time: 19 Location: Security Hallway
+	Time: 21 Location: Security Hallway
+	Time: 23 Location: Security Hallway
+
+Game: 14
+Killer: 1 Victim: 8
+Player:	2
+	Time: 3 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 12 Location: Admin Hallway
+	Time: 14 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+Player:	4
+	Time: 5 Location: Shields Hallway
+Player:	6
+	Time: 1 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+	Time: 15 Location: Shields Hallway
+Player:	7
+	Time: 9 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+	Time: 15 Location: Shields Hallway
+Player:	8
+	Time: 1 Location: Shields Hallway
+Player:	9
+	Time: 5 Location: Shields Hallway
+Player:	10
+	Time: 5 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+	Time: 15 Location: Admin Hallway
+
+player: 10
+location: Admin Hallway
+time: 11
+player: 10
+location: Admin Hallway
+time: 13
+player: 10
+location: Admin Hallway
+time: 15
+Game: 15
+Killer: 6 Victim: 2
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Shields Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+Player:	5
+	Time: 6 Location: Shields Hallway
+	Time: 8 Location: Shields Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+Player:	9
+	Time: 5 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+
+Game: 16
+Killer: 4 Victim: 1
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+
+Game: 17
+Killer: 6 Victim: 5
+Player:	1
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+Player:	2
+	Time: 5 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+Player:	3
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+Player:	4
+	Time: 5 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Shields Hallway
+Player:	6
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+Player:	10
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+
+Game: 18
+Killer: 1 Victim: 5
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 6 Location: Shields Hallway
+	Time: 16 Location: Admin Hallway
+	Time: 18 Location: Admin Hallway
+	Time: 20 Location: Admin Hallway
+Player:	2
+	Time: 7 Location: Admin Hallway
+	Time: 15 Location: Admin Hallway
+	Time: 17 Location: Medbay Hallway
+	Time: 19 Location: Medbay Hallway
+	Time: 21 Location: Security Hallway
+	Time: 23 Location: Security Hallway
+	Time: 25 Location: Security Hallway
+	Time: 27 Location: Security Hallway
+	Time: 29 Location: Security Hallway
+	Time: 31 Location: Security Hallway
+Player:	3
+	Time: 3 Location: Security Hallway
+	Time: 19 Location: Shields Hallway
+	Time: 23 Location: Shields Hallway
+	Time: 31 Location: Shields Hallway
+Player:	4
+	Time: 19 Location: Admin Hallway
+	Time: 23 Location: Medbay Hallway
+	Time: 25 Location: Medbay Hallway
+	Time: 27 Location: Medbay Hallway
+	Time: 29 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 11 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+	Time: 21 Location: Shields Hallway
+	Time: 30 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 23 Location: Admin Hallway
+Player:	7
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+	Time: 19 Location: Medbay Hallway
+	Time: 21 Location: Security Hallway
+	Time: 25 Location: Security Hallway
+	Time: 27 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+	Time: 10 Location: Shields Hallway
+	Time: 12 Location: Shields Hallway
+	Time: 16 Location: Shields Hallway
+	Time: 28 Location: Shields Hallway
+	Time: 30 Location: Shields Hallway
+Player:	10
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 17 Location: Admin Hallway
+	Time: 19 Location: Medbay Hallway
+	Time: 21 Location: Medbay Hallway
+	Time: 23 Location: Security Hallway
+	Time: 25 Location: Security Hallway
+
+Game: 19
+Killer: 7 Victim: 4
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+
+Game: 20
+Killer: 2 Victim: 5
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 7 Location: Security Hallway
+Player:	6
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 7 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+
+Game: 21
+Killer: 5 Victim: 6
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	2
+	Time: 5 Location: Shields Hallway
+Player:	3
+	Time: 5 Location: Shields Hallway
+Player:	4
+	Time: 5 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	6
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 9 Location: Admin Hallway
+Player:	7
+	Time: 11 Location: Shields Hallway
+Player:	8
+	Time: 11 Location: Security Hallway
+Player:	9
+	Time: 11 Location: Security Hallway
+Player:	10
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+
+player: 4
+location: Admin Hallway
+time: 11
+Game: 22
+Killer: 8 Victim: 3
+Player:	1
+	Time: 3 Location: Shields Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	2
+	Time: 5 Location: Shields Hallway
+Player:	3
+	Time: 11 Location: Shields Hallway
+Player:	5
+	Time: 11 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+Player:	6
+	Time: 8 Location: Medbay Hallway
+	Time: 10 Location: Medbay Hallway
+	Time: 12 Location: Security Hallway
+	Time: 14 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+Player:	8
+	Time: 7 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+Player:	9
+	Time: 4 Location: Admin Hallway
+	Time: 6 Location: Admin Hallway
+	Time: 8 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Shields Hallway
+	Time: 8 Location: Medbay Hallway
+	Time: 10 Location: Security Hallway
+	Time: 12 Location: Security Hallway
+	Time: 14 Location: Security Hallway
+
+player: 1
+location: Admin Hallway
+time: 9
+Game: 23
+Killer: 5 Victim: 7
+Player:	1
+	Time: 8 Location: Shields Hallway
+Player:	3
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+Player:	7
+	Time: 3 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	9
+	Time: 3 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+
+Game: 24
+Killer: 4 Victim: 8
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 13 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+	Time: 8 Location: Shields Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+
+player: 2
+location: Admin Hallway
+time: 9
+Game: 25
+Killer: 1 Victim: 8
+Player:	1
+	Time: 4 Location: Shields Hallway
+	Time: 13 Location: Admin Hallway
+	Time: 15 Location: Admin Hallway
+	Time: 17 Location: Admin Hallway
+	Time: 19 Location: Admin Hallway
+Player:	2
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+Player:	4
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+	Time: 19 Location: Medbay Hallway
+	Time: 21 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+Player:	6
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Security Hallway
+	Time: 19 Location: Security Hallway
+	Time: 21 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 17 Location: Security Hallway
+	Time: 21 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+	Time: 21 Location: Security Hallway
+Player:	10
+	Time: 10 Location: Shields Hallway
+	Time: 12 Location: Shields Hallway
+	Time: 14 Location: Shields Hallway
+	Time: 20 Location: Shields Hallway
+	Time: 22 Location: Shields Hallway
+
+Game: 26
+Killer: 10 Victim: 9
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	8
+	Time: 7 Location: Shields Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	10
+	Time: 7 Location: Security Hallway
+
+Game: 27
+Killer: 9 Victim: 7
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+
+Game: 28
+Killer: 3 Victim: 4
+Player:	1
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	9
+	Time: 6 Location: Shields Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+
+Game: 29
+Killer: 7 Victim: 9
+Player:	1
+	Time: 1 Location: Shields Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+	Time: 19 Location: Security Hallway
+	Time: 21 Location: Security Hallway
+Player:	2
+	Time: 7 Location: Shields Hallway
+	Time: 17 Location: Admin Hallway
+	Time: 19 Location: Admin Hallway
+	Time: 21 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 16 Location: Medbay Hallway
+	Time: 18 Location: Medbay Hallway
+	Time: 20 Location: Medbay Hallway
+Player:	4
+	Time: 5 Location: Shields Hallway
+	Time: 18 Location: Medbay Hallway
+	Time: 20 Location: Security Hallway
+Player:	5
+	Time: 3 Location: Shields Hallway
+	Time: 21 Location: Shields Hallway
+Player:	6
+	Time: 10 Location: Medbay Hallway
+	Time: 12 Location: Security Hallway
+	Time: 14 Location: Security Hallway
+	Time: 18 Location: Security Hallway
+	Time: 20 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+	Time: 14 Location: Medbay Hallway
+	Time: 16 Location: Medbay Hallway
+	Time: 18 Location: Security Hallway
+	Time: 20 Location: Security Hallway
+Player:	8
+	Time: 3 Location: Shields Hallway
+	Time: 12 Location: Admin Hallway
+	Time: 18 Location: Admin Hallway
+	Time: 20 Location: Admin Hallway
+Player:	9
+	Time: 9 Location: Shields Hallway
+
+player: 8
+location: Admin Hallway
+time: 12
+Game: 30
+Killer: 4 Victim: 5
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+
+player: 1
+location: Admin Hallway
+time: 9
+Game: 31
+Killer: 5 Victim: 7
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	6
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+
+Game: 32
+Killer: 7 Victim: 8
+Player:	1
+	Time: 3 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+Player:	2
+	Time: 8 Location: Medbay Hallway
+	Time: 10 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Shields Hallway
+Player:	4
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 10 Location: Admin Hallway
+Player:	5
+	Time: 5 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+Player:	6
+	Time: 5 Location: Shields Hallway
+Player:	8
+	Time: 3 Location: Shields Hallway
+Player:	9
+	Time: 1 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+Player:	10
+	Time: 7 Location: Shields Hallway
+
+Game: 33
+Killer: 9 Victim: 5
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 14 Location: Shields Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+
+player: 3
+location: Admin Hallway
+time: 11
+player: 3
+location: Admin Hallway
+time: 13
+Game: 34
+Killer: 3 Victim: 1
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 9 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+
+player: 1
+location: Admin Hallway
+time: 9
+player: 3
+location: Admin Hallway
+time: 9
+player: 3
+location: Admin Hallway
+time: 11
+Game: 35
+Killer: 9 Victim: 1
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 13 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+
+Game: 36
+Killer: 10 Victim: 2
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 25 Location: Admin Hallway
+	Time: 32 Location: Shields Hallway
+	Time: 34 Location: Shields Hallway
+	Time: 39 Location: Medbay Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 22 Location: Shields Hallway
+	Time: 34 Location: Shields Hallway
+	Time: 36 Location: Shields Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 21 Location: Admin Hallway
+	Time: 34 Location: Shields Hallway
+	Time: 38 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 15 Location: Shields Hallway
+	Time: 17 Location: Shields Hallway
+	Time: 19 Location: Shields Hallway
+	Time: 23 Location: Shields Hallway
+	Time: 32 Location: Medbay Hallway
+	Time: 34 Location: Security Hallway
+	Time: 36 Location: Medbay Hallway
+	Time: 38 Location: Medbay Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 27 Location: Security Hallway
+	Time: 29 Location: Security Hallway
+	Time: 31 Location: Security Hallway
+	Time: 33 Location: Security Hallway
+	Time: 35 Location: Security Hallway
+	Time: 37 Location: Security Hallway
+	Time: 39 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 10 Location: Shields Hallway
+	Time: 18 Location: Shields Hallway
+	Time: 22 Location: Shields Hallway
+	Time: 32 Location: Shields Hallway
+	Time: 36 Location: Shields Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 23 Location: Admin Hallway
+	Time: 25 Location: Admin Hallway
+	Time: 27 Location: Admin Hallway
+	Time: 29 Location: Admin Hallway
+	Time: 31 Location: Admin Hallway
+	Time: 33 Location: Admin Hallway
+	Time: 35 Location: Medbay Hallway
+	Time: 37 Location: Security Hallway
+	Time: 39 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 12 Location: Shields Hallway
+	Time: 14 Location: Shields Hallway
+	Time: 16 Location: Shields Hallway
+	Time: 18 Location: Shields Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 16 Location: Shields Hallway
+	Time: 22 Location: Shields Hallway
+	Time: 24 Location: Shields Hallway
+	Time: 26 Location: Shields Hallway
+	Time: 28 Location: Shields Hallway
+	Time: 30 Location: Shields Hallway
+	Time: 34 Location: Shields Hallway
+
+player: 5
+location: Admin Hallway
+time: 11
+Game: 37
+Killer: 5 Victim: 2
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	6
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	9
+	Time: 7 Location: Security Hallway
+
+Game: 38
+Killer: 3 Victim: 4
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	4
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+Player:	10
+	Time: 3 Location: Admin Hallway
+
+Game: 39
+Killer: 7 Victim: 3
+Player:	1
+	Time: 1 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Security Hallway
+	Time: 13 Location: Shields Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 12 Location: Shields Hallway
+	Time: 14 Location: Shields Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 13 Location: Shields Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+
+Game: 40
+Killer: 3 Victim: 1
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+
+Game: 41
+Killer: 6 Victim: 7
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+Player:	8
+	Time: 7 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+
+Game: 42
+Killer: 10 Victim: 2
+Player:	1
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	2
+	Time: 9 Location: Admin Hallway
+	Time: 13 Location: Security Hallway
+Player:	4
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+	Time: 15 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+	Time: 15 Location: Admin Hallway
+Player:	6
+	Time: 5 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+Player:	8
+	Time: 5 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+Player:	9
+	Time: 5 Location: Shields Hallway
+	Time: 12 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+
+player: 2
+location: Admin Hallway
+time: 9
+player: 4
+location: Admin Hallway
+time: 11
+player: 4
+location: Admin Hallway
+time: 13
+player: 4
+location: Admin Hallway
+time: 15
+Game: 43
+Killer: 2 Victim: 6
+Player:	2
+	Time: 6 Location: Admin Hallway
+	Time: 10 Location: Admin Hallway
+Player:	3
+	Time: 5 Location: Shields Hallway
+Player:	4
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+Player:	5
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+Player:	6
+	Time: 4 Location: Admin Hallway
+	Time: 6 Location: Admin Hallway
+Player:	7
+	Time: 6 Location: Medbay Hallway
+	Time: 8 Location: Medbay Hallway
+	Time: 10 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+Player:	10
+	Time: 5 Location: Shields Hallway
+
+player: 2
+location: Admin Hallway
+time: 10
+Game: 44
+Killer: 2 Victim: 6
+Player:	1
+	Time: 3 Location: Shields Hallway
+	Time: 18 Location: Medbay Hallway
+Player:	2
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Medbay Hallway
+Player:	3
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 15 Location: Admin Hallway
+	Time: 17 Location: Admin Hallway
+	Time: 19 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 19 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+Player:	6
+	Time: 13 Location: Admin Hallway
+	Time: 15 Location: Admin Hallway
+Player:	7
+	Time: 3 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+	Time: 19 Location: Shields Hallway
+Player:	8
+	Time: 3 Location: Shields Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	10
+	Time: 5 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+
+player: 3
+location: Admin Hallway
+time: 9
+player: 3
+location: Admin Hallway
+time: 11
+Game: 45
+Killer: 4 Victim: 2
+Player:	1
+	Time: 3 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+Player:	2
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Shields Hallway
+Player:	3
+	Time: 1 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+	Time: 15 Location: Shields Hallway
+Player:	4
+	Time: 3 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+Player:	5
+	Time: 11 Location: Shields Hallway
+Player:	6
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+	Time: 15 Location: Admin Hallway
+Player:	7
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+	Time: 13 Location: Admin Hallway
+	Time: 15 Location: Admin Hallway
+Player:	9
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+	Time: 15 Location: Medbay Hallway
+Player:	10
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Admin Hallway
+
+player: 6
+location: Admin Hallway
+time: 9
+player: 6
+location: Admin Hallway
+time: 11
+player: 8
+location: Admin Hallway
+time: 13
+player: 8
+location: Admin Hallway
+time: 15
+Game: 46
+Killer: 10 Victim: 7
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+	Time: 19 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+	Time: 19 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+	Time: 19 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 9 Location: Shields Hallway
+	Time: 15 Location: Shields Hallway
+
+Game: 47
+Killer: 10 Victim: 8
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+
+Game: 48
+Killer: 8 Victim: 3
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+
+Game: 49
+Killer: 4 Victim: 5
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 7 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 10 Location: Shields Hallway
+	Time: 12 Location: Shields Hallway
+
+player: 1
+location: Admin Hallway
+time: 7
+player: 3
+location: Admin Hallway
+time: 11
+Game: 50
+Killer: 5 Victim: 4
+Player:	1
+	Time: 9 Location: Shields Hallway
+Player:	2
+	Time: 8 Location: Medbay Hallway
+Player:	3
+	Time: 3 Location: Shields Hallway
+Player:	4
+	Time: 10 Location: Medbay Hallway
+Player:	5
+	Time: 8 Location: Medbay Hallway
+	Time: 10 Location: Medbay Hallway
+	Time: 12 Location: Medbay Hallway
+Player:	6
+	Time: 6 Location: Medbay Hallway
+	Time: 8 Location: Medbay Hallway
+	Time: 10 Location: Admin Hallway
+Player:	8
+	Time: 8 Location: Admin Hallway
+	Time: 10 Location: Medbay Hallway
+	Time: 12 Location: Medbay Hallway
+Player:	9
+	Time: 5 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+
+player: 8
+location: Admin Hallway
+time: 8
+Game: 51
+Killer: 1 Victim: 10
+Player:	1
+	Time: 1 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 7 Location: Shields Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+
+Game: 52
+Killer: 5 Victim: 3
+Player:	1
+	Time: 7 Location: Shields Hallway
+Player:	2
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	3
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	4
+	Time: 5 Location: Shields Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	7
+	Time: 7 Location: Admin Hallway
+Player:	8
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	9
+	Time: 3 Location: Shields Hallway
+Player:	10
+	Time: 3 Location: Shields Hallway
+	Time: 7 Location: Admin Hallway
+
+Game: 53
+Killer: 9 Victim: 3
+Player:	1
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 15 Location: Admin Hallway
+Player:	4
+	Time: 6 Location: Shields Hallway
+	Time: 8 Location: Shields Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+Player:	8
+	Time: 8 Location: Shields Hallway
+	Time: 10 Location: Shields Hallway
+	Time: 12 Location: Shields Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+	Time: 15 Location: Admin Hallway
+	Time: 17 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+
+Game: 54
+Killer: 8 Victim: 10
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+
+Game: 55
+Killer: 4 Victim: 3
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 9 Location: Admin Hallway
+
+player: 10
+location: Admin Hallway
+time: 9
+Game: 56
+Killer: 4 Victim: 8
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+
+player: 6
+location: Admin Hallway
+time: 7
+Game: 57
+Killer: 9 Victim: 10
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 15 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+
+player: 2
+location: Admin Hallway
+time: 7
+player: 6
+location: Admin Hallway
+time: 11
+Game: 58
+Killer: 6 Victim: 9
+Player:	1
+	Time: 1 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+Player:	2
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 12 Location: Medbay Hallway
+Player:	3
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Shields Hallway
+	Time: 13 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Shields Hallway
+	Time: 8 Location: Medbay Hallway
+	Time: 10 Location: Security Hallway
+	Time: 12 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+Player:	7
+	Time: 1 Location: Shields Hallway
+	Time: 9 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+Player:	9
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+Player:	10
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+
+player: 3
+location: Admin Hallway
+time: 9
+player: 7
+location: Admin Hallway
+time: 9
+Game: 59
+Killer: 9 Victim: 3
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+Player:	5
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 9 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+Player:	8
+	Time: 9 Location: Shields Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	10
+	Time: 7 Location: Shields Hallway
+
+Game: 60
+Killer: 5 Victim: 4
+Player:	1
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Shields Hallway
+	Time: 10 Location: Admin Hallway
+Player:	6
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+Player:	10
+	Time: 5 Location: Shields Hallway
+	Time: 9 Location: Admin Hallway
+
+player: 1
+location: Admin Hallway
+time: 9
+player: 3
+location: Admin Hallway
+time: 10
+Game: 61
+Killer: 9 Victim: 3
+Player:	1
+	Time: 7 Location: Shields Hallway
+Player:	2
+	Time: 7 Location: Shields Hallway
+Player:	3
+	Time: 5 Location: Shields Hallway
+Player:	4
+	Time: 5 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+Player:	5
+	Time: 1 Location: Shields Hallway
+Player:	6
+	Time: 1 Location: Shields Hallway
+Player:	7
+	Time: 5 Location: Shields Hallway
+Player:	8
+	Time: 7 Location: Shields Hallway
+Player:	9
+	Time: 9 Location: Shields Hallway
+Player:	10
+	Time: 3 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+
+Game: 62
+Killer: 8 Victim: 10
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+
+player: 7
+location: Admin Hallway
+time: 13
+Game: 63
+Killer: 4 Victim: 10
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	4
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+
+Game: 64
+Killer: 2 Victim: 3
+Player:	1
+	Time: 11 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+Player:	2
+	Time: 1 Location: Shields Hallway
+	Time: 6 Location: Medbay Hallway
+	Time: 8 Location: Medbay Hallway
+	Time: 10 Location: Medbay Hallway
+	Time: 12 Location: Medbay Hallway
+	Time: 14 Location: Medbay Hallway
+Player:	3
+	Time: 12 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Shields Hallway
+Player:	5
+	Time: 9 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+Player:	6
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+Player:	7
+	Time: 10 Location: Admin Hallway
+	Time: 12 Location: Admin Hallway
+Player:	8
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+Player:	9
+	Time: 3 Location: Shields Hallway
+	Time: 14 Location: Medbay Hallway
+Player:	10
+	Time: 3 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+
+Game: 65
+Killer: 5 Victim: 1
+Player:	1
+	Time: 1 Location: Medbay Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+
+player: 4
+location: Admin Hallway
+time: 9
+Game: 66
+Killer: 6 Victim: 4
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+
+Game: 67
+Killer: 8 Victim: 9
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 13 Location: Shields Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+
+player: 5
+location: Admin Hallway
+time: 9
+Game: 68
+Killer: 1 Victim: 10
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 13 Location: Security Hallway
+Player:	5
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	7
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	10
+	Time: 7 Location: Admin Hallway
+	Time: 11 Location: Security Hallway
+
+player: 4
+location: Admin Hallway
+time: 9
+player: 7
+location: Admin Hallway
+time: 9
+player: 7
+location: Admin Hallway
+time: 11
+player: 7
+location: Admin Hallway
+time: 13
+Game: 69
+Killer: 6 Victim: 9
+Player:	1
+	Time: 5 Location: Shields Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	4
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	7
+	Time: 7 Location: Admin Hallway
+Player:	8
+	Time: 3 Location: Admin Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+
+Game: 70
+Killer: 8 Victim: 2
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+
+Game: 71
+Killer: 7 Victim: 3
+Player:	1
+	Time: 1 Location: Shields Hallway
+	Time: 9 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Shields Hallway
+Player:	3
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+Player:	5
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+Player:	6
+	Time: 5 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+Player:	7
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+Player:	8
+	Time: 9 Location: Shields Hallway
+Player:	9
+	Time: 11 Location: Shields Hallway
+Player:	10
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+
+player: 1
+location: Admin Hallway
+time: 9
+player: 10
+location: Admin Hallway
+time: 9
+player: 10
+location: Admin Hallway
+time: 11
+Game: 72
+Killer: 1 Victim: 10
+Player:	2
+	Time: 1 Location: Shields Hallway
+Player:	3
+	Time: 9 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+Player:	6
+	Time: 1 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+Player:	8
+	Time: 1 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+Player:	9
+	Time: 1 Location: Shields Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+
+player: 3
+location: Admin Hallway
+time: 9
+player: 9
+location: Admin Hallway
+time: 9
+Game: 73
+Killer: 6 Victim: 7
+Player:	1
+	Time: 6 Location: Medbay Hallway
+	Time: 8 Location: Medbay Hallway
+	Time: 10 Location: Admin Hallway
+Player:	2
+	Time: 4 Location: Medbay Hallway
+	Time: 8 Location: Medbay Hallway
+	Time: 10 Location: Medbay Hallway
+Player:	3
+	Time: 7 Location: Shields Hallway
+	Time: 11 Location: Admin Hallway
+Player:	4
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+Player:	5
+	Time: 4 Location: Admin Hallway
+	Time: 6 Location: Admin Hallway
+	Time: 8 Location: Medbay Hallway
+	Time: 10 Location: Medbay Hallway
+Player:	6
+	Time: 9 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+Player:	7
+	Time: 1 Location: Shields Hallway
+	Time: 9 Location: Shields Hallway
+Player:	8
+	Time: 1 Location: Shields Hallway
+Player:	9
+	Time: 10 Location: Medbay Hallway
+
+Game: 74
+Killer: 1 Victim: 6
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 9 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 6 Location: Shields Hallway
+	Time: 8 Location: Shields Hallway
+	Time: 10 Location: Shields Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+
+player: 1
+location: Admin Hallway
+time: 9
+Game: 75
+Killer: 3 Victim: 9
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 13 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 13 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+
+Game: 76
+Killer: 3 Victim: 2
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+	Time: 21 Location: Admin Hallway
+	Time: 23 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 17 Location: Shields Hallway
+	Time: 19 Location: Shields Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+	Time: 19 Location: Security Hallway
+	Time: 21 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 19 Location: Security Hallway
+	Time: 21 Location: Security Hallway
+	Time: 23 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 13 Location: Admin Hallway
+	Time: 19 Location: Security Hallway
+	Time: 21 Location: Security Hallway
+	Time: 23 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+	Time: 19 Location: Medbay Hallway
+	Time: 21 Location: Security Hallway
+	Time: 23 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+	Time: 19 Location: Medbay Hallway
+	Time: 21 Location: Medbay Hallway
+	Time: 23 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 15 Location: Admin Hallway
+	Time: 17 Location: Admin Hallway
+	Time: 19 Location: Medbay Hallway
+	Time: 21 Location: Admin Hallway
+
+player: 9
+location: Admin Hallway
+time: 11
+Game: 77
+Killer: 3 Victim: 10
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	4
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	7
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	8
+	Time: 3 Location: Security Hallway
+Player:	9
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Security Hallway
+Player:	10
+	Time: 5 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+
+player: 7
+location: Admin Hallway
+time: 9
+Game: 78
+Killer: 1 Victim: 10
+Player:	1
+	Time: 9 Location: Shields Hallway
+Player:	2
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 12 Location: Medbay Hallway
+	Time: 14 Location: Medbay Hallway
+Player:	3
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 5 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+Player:	6
+	Time: 5 Location: Security Hallway
+	Time: 13 Location: Admin Hallway
+Player:	8
+	Time: 7 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+Player:	9
+	Time: 7 Location: Shields Hallway
+Player:	10
+	Time: 1 Location: Shields Hallway
+
+Game: 79
+Killer: 10 Victim: 9
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+	Time: 19 Location: Medbay Hallway
+	Time: 21 Location: Medbay Hallway
+	Time: 23 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 17 Location: Admin Hallway
+	Time: 19 Location: Admin Hallway
+	Time: 21 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 21 Location: Admin Hallway
+	Time: 23 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 19 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+	Time: 19 Location: Security Hallway
+	Time: 23 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+	Time: 24 Location: Shields Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+	Time: 19 Location: Security Hallway
+	Time: 21 Location: Security Hallway
+	Time: 23 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Admin Hallway
+	Time: 17 Location: Admin Hallway
+	Time: 19 Location: Admin Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+	Time: 20 Location: Shields Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 20 Location: Shields Hallway
+
+player: 8
+location: Admin Hallway
+time: 15
+player: 8
+location: Admin Hallway
+time: 17
+player: 8
+location: Admin Hallway
+time: 19
+Game: 80
+Killer: 7 Victim: 4
+Player:	1
+	Time: 1 Location: Shields Hallway
+Player:	2
+	Time: 1 Location: Shields Hallway
+Player:	3
+	Time: 3 Location: Shields Hallway
+Player:	6
+	Time: 1 Location: Shields Hallway
+Player:	7
+	Time: 1 Location: Shields Hallway
+	Time: 5 Location: Admin Hallway
+Player:	8
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+Player:	10
+	Time: 1 Location: Shields Hallway
+	Time: 3 Location: Shields Hallway
+	Time: 7 Location: Shields Hallway
+
+Game: 81
+Killer: 1 Victim: 6
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+
+Game: 82
+Killer: 9 Victim: 10
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+
+Game: 83
+Killer: 3 Victim: 8
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Admin Hallway
+
+Game: 84
+Killer: 9 Victim: 1
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+
+player: 10
+location: Admin Hallway
+time: 7
+player: 10
+location: Admin Hallway
+time: 9
+Game: 85
+Killer: 8 Victim: 2
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 15 Location: Shields Hallway
+	Time: 17 Location: Shields Hallway
+	Time: 24 Location: Medbay Hallway
+	Time: 26 Location: Admin Hallway
+	Time: 28 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Medbay Hallway
+	Time: 19 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+	Time: 19 Location: Medbay Hallway
+	Time: 21 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Security Hallway
+	Time: 19 Location: Security Hallway
+	Time: 23 Location: Security Hallway
+	Time: 25 Location: Security Hallway
+	Time: 27 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 19 Location: Shields Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 13 Location: Shields Hallway
+	Time: 19 Location: Shields Hallway
+	Time: 23 Location: Shields Hallway
+	Time: 25 Location: Shields Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 28 Location: Shields Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 15 Location: Shields Hallway
+	Time: 17 Location: Shields Hallway
+	Time: 21 Location: Shields Hallway
+	Time: 25 Location: Shields Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+	Time: 19 Location: Security Hallway
+	Time: 21 Location: Security Hallway
+	Time: 23 Location: Security Hallway
+	Time: 25 Location: Security Hallway
+
+Game: 86
+Killer: 6 Victim: 3
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+
+Game: 87
+Killer: 4 Victim: 10
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 15 Location: Security Hallway
+	Time: 17 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+	Time: 15 Location: Medbay Hallway
+	Time: 17 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 17 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 12 Location: Shields Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+	Time: 15 Location: Security Hallway
+
+Game: 88
+Killer: 4 Victim: 3
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 11 Location: Shields Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 13 Location: Shields Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Shields Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+
+Game: 89
+Killer: 7 Victim: 3
+Player:	1
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+Player:	3
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	6
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	8
+	Time: 3 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+
+Game: 90
+Killer: 4 Victim: 10
+Player:	1
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	3
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+Player:	4
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+	Time: 13 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 7 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	7
+	Time: 11 Location: Shields Hallway
+	Time: 13 Location: Shields Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	9
+	Time: 7 Location: Admin Hallway
+Player:	10
+	Time: 11 Location: Admin Hallway
+
+player: 4
+location: Admin Hallway
+time: 11
+player: 4
+location: Admin Hallway
+time: 13
+Game: 91
+Killer: 10 Victim: 2
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Shields Hallway
+	Time: 11 Location: Shields Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+	Time: 11 Location: Admin Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 11 Location: Medbay Hallway
+
+Game: 92
+Killer: 1 Victim: 4
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+Player:	2
+	Time: 3 Location: Shields Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	8
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+
+Game: 93
+Killer: 2 Victim: 4
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+
+Game: 94
+Killer: 9 Victim: 5
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 8 Location: Shields Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+
+player: 2
+location: Admin Hallway
+time: 9
+Game: 95
+Killer: 7 Victim: 4
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 10 Location: Shields Hallway
+Player:	3
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+Player:	4
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	6
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+
+player: 6
+location: Admin Hallway
+time: 9
+Game: 96
+Killer: 6 Victim: 9
+Player:	1
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Medbay Hallway
+Player:	2
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+	Time: 13 Location: Security Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+	Time: 11 Location: Medbay Hallway
+	Time: 13 Location: Admin Hallway
+Player:	9
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+	Time: 11 Location: Security Hallway
+Player:	10
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+
+Game: 97
+Killer: 1 Victim: 4
+Player:	2
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Security Hallway
+Player:	4
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+Player:	5
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	6
+	Time: 3 Location: Security Hallway
+Player:	7
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	9
+	Time: 3 Location: Shields Hallway
+Player:	10
+	Time: 3 Location: Shields Hallway
+
+Game: 98
+Killer: 9 Victim: 2
+Player:	1
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	2
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+Player:	3
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+Player:	5
+	Time: 1 Location: Admin Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	6
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+Player:	7
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+Player:	8
+	Time: 1 Location: Admin Hallway
+Player:	9
+	Time: 1 Location: Admin Hallway
+	Time: 3 Location: Admin Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Admin Hallway
+	Time: 6 Location: Shields Hallway
+	Time: 8 Location: Shields Hallway
+
+Game: 99
+Killer: 2 Victim: 5
+Player:	1
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	2
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	3
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+Player:	4
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Medbay Hallway
+Player:	5
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+Player:	6
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	7
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Medbay Hallway
+	Time: 7 Location: Medbay Hallway
+	Time: 9 Location: Medbay Hallway
+Player:	8
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+Player:	9
+	Time: 1 Location: Medbay Hallway
+	Time: 3 Location: Medbay Hallway
+	Time: 5 Location: Admin Hallway
+	Time: 7 Location: Admin Hallway
+	Time: 9 Location: Admin Hallway
+Player:	10
+	Time: 1 Location: Security Hallway
+	Time: 3 Location: Security Hallway
+	Time: 5 Location: Security Hallway
+	Time: 7 Location: Security Hallway
+	Time: 9 Location: Security Hallway
+
+player: 9
+location: Admin Hallway
+time: 9
+A* algorithm
+Predicted: 3	Actual: 5
+	With probability: 0.25
+Predicted: 8	Actual: 8
+	With probability: 0.027777777777777776
+Predicted: 1	Actual: 6
+	With probability: 0.0003429355281207133
+Predicted: 6	Actual: 5
+	With probability: 0.0008680555555555555
+Predicted: 6	Actual: 6
+	With probability: 3.572245084590763e-06
+Predicted: 7	Actual: 6
+	With probability: 0.0008680555555555555
+Predicted: 8	Actual: 5
+	With probability: 0.0625
+Predicted: 10	Actual: 6
+	With probability: 0.0013020833333333333
+Predicted: 2	Actual: 1
+	With probability: 0.0026041666666666665
+Predicted: 10	Actual: 9
+	With probability: 0.125
+Predicted: 2	Actual: 2
+	With probability: 0.001736111111111111
+Predicted: 9	Actual: 9
+	With probability: 0.25
+Predicted: 2	Actual: 7
+	With probability: 0.004115226337448559
+Predicted: 9	Actual: 6
+	With probability: 0.00014467592592592592
+Predicted: 7	Actual: 1
+	With probability: 0.0625
+Predicted: 5	Actual: 6
+	With probability: 0.125
+Predicted: 8	Actual: 4
+	With probability: 6.430041152263374e-05
+Predicted: 2	Actual: 6
+	With probability: 0.125
+Predicted: 3	Actual: 1
+	With probability: 0.0009765625
+Predicted: 7	Actual: 7
+	With probability: 0.009259259259259259
+Predicted: 3	Actual: 2
+	With probability: 0.0023148148148148147
+Predicted: 5	Actual: 5
+	With probability: 0.012345679012345678
+Predicted: 5	Actual: 8
+	With probability: 0.125
+Predicted: 1	Actual: 5
+	With probability: 0.5
+Predicted: 5	Actual: 4
+	With probability: 0.0005787037037037037
+Predicted: 10	Actual: 1
+	With probability: 0.00390625
+Predicted: 5	Actual: 10
+	With probability: 0.0005787037037037037
+Predicted: 3	Actual: 9
+	With probability: 0.0011574074074074073
+Predicted: 9	Actual: 3
+	With probability: 0.03125
+Predicted: 5	Actual: 7
+	With probability: 0.25
+Predicted: 2	Actual: 4
+	With probability: 0.000244140625
+Predicted: 6	Actual: 5
+	With probability: 0.03125
+Predicted: 9	Actual: 7
+	With probability: 0.25
+Predicted: 8	Actual: 9
+	With probability: 0.00012860082304526747
+Predicted: 3	Actual: 3
+	With probability: 0.0008680555555555555
+Predicted: 4	Actual: 9
+	With probability: 0.0011574074074074073
+Predicted: 1	Actual: 10
+	With probability: 9.04224537037037e-06
+Predicted: 9	Actual: 5
+	With probability: 0.25
+Predicted: 10	Actual: 3
+	With probability: 0.00025720164609053495
+Predicted: 4	Actual: 7
+	With probability: 0.00016276041666666666
+Predicted: 8	Actual: 3
+	With probability: 0.00390625
+Predicted: 2	Actual: 6
+	With probability: 0.0015432098765432098
+Predicted: 8	Actual: 10
+	With probability: 0.03125
+Predicted: 2	Actual: 2
+	With probability: 0.1111111111111111
+Predicted: 10	Actual: 2
+	With probability: 0.0003255208333333333
+Predicted: 4	Actual: 4
+	With probability: 0.0078125
+Predicted: 10	Actual: 10
+	With probability: 0.000244140625
+Predicted: 1	Actual: 10
+	With probability: 0.012345679012345678
+Predicted: 8	Actual: 8
+	With probability: 0.006172839506172839
+Predicted: 10	Actual: 4
+	With probability: 0.0015432098765432098
+Predicted: 1	Actual: 5
+	With probability: 0.03125
+Predicted: 5	Actual: 1
+	With probability: 0.00028935185185185184
+Predicted: 4	Actual: 5
+	With probability: 0.0625
+Predicted: 10	Actual: 9
+	With probability: 9.645061728395061e-05
+Predicted: 5	Actual: 8
+	With probability: 0.00028935185185185184
+Predicted: 10	Actual: 4
+	With probability: 0.0026041666666666665
+Predicted: 2	Actual: 4
+	With probability: 0.0013020833333333333
+Predicted: 7	Actual: 9
+	With probability: 0.00012860082304526747
+Predicted: 4	Actual: 6
+	With probability: 0.0625
+Predicted: 8	Actual: 9
+	With probability: 0.0625
+Predicted: 3	Actual: 5
+	With probability: 0.125
+Predicted: 9	Actual: 9
+	With probability: 1.0
+Predicted: 4	Actual: 8
+	With probability: 0.00022862368541380884
+Predicted: 5	Actual: 4
+	With probability: 0.00016276041666666666
+Predicted: 9	Actual: 2
+	With probability: 0.16666666666666666
+Predicted: 9	Actual: 5
+	With probability: 0.012345679012345678
+Predicted: 2	Actual: 6
+	With probability: 0.0026041666666666665
+Predicted: 5	Actual: 8
+	With probability: 0.00025720164609053495
+Predicted: 5	Actual: 1
+	With probability: 0.03125
+Predicted: 8	Actual: 6
+	With probability: 0.009259259259259259
+Predicted: 9	Actual: 8
+	With probability: 0.009259259259259259
+Predicted: 6	Actual: 7
+	With probability: 0.0078125
+Predicted: 3	Actual: 1
+	With probability: 0.3333333333333333
+Predicted: 4	Actual: 6
+	With probability: 0.001953125
+Predicted: 2	Actual: 1
+	With probability: 0.005208333333333333
+Predicted: 7	Actual: 3
+	With probability: 0.0001220703125
+Predicted: 1	Actual: 3
+	With probability: 7.144490169181526e-06
+Predicted: 9	Actual: 3
+	With probability: 0.0023148148148148147
+Predicted: 8	Actual: 1
+	With probability: 0.125
+Predicted: 6	Actual: 10
+	With probability: 5.358367626886144e-06
+Predicted: 9	Actual: 7
+	With probability: 0.125
+Predicted: 8	Actual: 1
+	With probability: 0.0030864197530864196
+Predicted: 9	Actual: 9
+	With probability: 0.0001143118427069044
+Predicted: 7	Actual: 3
+	With probability: 0.009259259259259259
+Predicted: 10	Actual: 9
+	With probability: 0.0023148148148148147
+Predicted: 9	Actual: 8
+	With probability: 1.3563368055555555e-05
+Predicted: 5	Actual: 6
+	With probability: 0.0013020833333333333
+Predicted: 9	Actual: 4
+	With probability: 0.00028935185185185184
+Predicted: 4	Actual: 4
+	With probability: 0.004629629629629629
+Predicted: 1	Actual: 7
+	With probability: 0.00390625
+Predicted: 7	Actual: 4
+	With probability: 0.25
+Predicted: 3	Actual: 10
+	With probability: 0.0023148148148148147
+Predicted: 8	Actual: 1
+	With probability: 0.013888888888888888
+Predicted: 8	Actual: 2
+	With probability: 0.0026041666666666665
+Predicted: 1	Actual: 9
+	With probability: 0.006944444444444444
+Predicted: 9	Actual: 7
+	With probability: 0.004115226337448559
+Predicted: 4	Actual: 6
+	With probability: 0.00048828125
+Predicted: 9	Actual: 1
+	With probability: 0.001736111111111111
+Predicted: 5	Actual: 9
+	With probability: 0.020833333333333332
+Predicted: 4	Actual: 2
+	With probability: 0.0006510416666666666
+Accuracy: 14.0%
