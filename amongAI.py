@@ -3,6 +3,7 @@ from typing import List
 from simulation import Graph, Game
 from test import load_graph
 from pathfinder import Predict
+import sys
 
 """
 
@@ -195,8 +196,15 @@ def loadInputData(fileName) -> List[GameTimeline]:
 MAIN METHOD BIOTCHES
 """
 if __name__ == "__main__":
-    inputData: List[GameTimeline] = loadInputData('./graph-1/test_data/progress_report-10-1.json')
-    graph = load_graph("./graph-1/test_nodes.txt", "./graph-1/test_edges.txt")
+    input_data = './graph-1/test_data/progress_report-10-1.json'
+    nodes = "./graph-1/test_nodes.txt"
+    edges = "./graph-1/test_edges.txt"
+
+    if len(sys.argv) > 1:
+        input_data = sys.argv[1]
+
+    inputData: List[GameTimeline] = loadInputData(input_data)
+    graph = load_graph(nodes, edges)
 
     counter = 0
     for data in inputData:
@@ -211,8 +219,17 @@ if __name__ == "__main__":
             print(f"location: {coin['location']}")
             print(f"time: {coin['time']}")
 
-    for data in inputData:
-        predicted_killer = Predict(data, graph, True)
+    total = 0
+    correct = 0
 
-        print(f"Predicted: {predicted_killer}\nActual: {data.killer}")
+    print(f'A* algorithm')
+    for data in inputData:
+        predicted_killer, probability = Predict(data, graph)
+        print(f"Predicted: {predicted_killer}\tActual: {data.killer}\n\tWith probability: {probability}")
+
+        total += 1
+        if predicted_killer == data.killer:
+            correct += 1
+
+    print(f'Accuracy: {round((correct/total)*100, 2)}%')
     pass
