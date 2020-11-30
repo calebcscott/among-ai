@@ -49,12 +49,12 @@ class PathInfer():
     def _find_path_between_nodes(self, loc1, loc2=None, last_time=None):
         self._reset_graph()
         # define depth limit of A*
-        print(f"Test of loc2: {loc2}")
-        c = 2
+        # print(f"Test of loc2: {loc2}")
+        c = 3
 
         # last time is not multiplied by constant to prevent over searching/predicting player path
         limit = c * (loc2["time"] - loc1["time"]) if loc2 else last_time - loc1["time"]
-        print(f'Depth limit of {limit}')
+        # print(f'Depth limit of {limit}')
 
         path = Path(self._converted_graph.nodes.get(loc1["location"])
                              ,self._converted_graph.edges.get(loc1["location"])
@@ -69,7 +69,7 @@ class PathInfer():
         visited = []
         found = False
 
-        #print(f"Attempting to find path between {loc1['location']} and {loc2['location']}")
+        print(f"Attempting to find path between {loc1['location']} and {loc2['location']}")
 
         while len(prio_q) > 0:
             current = prio_q.pop(0)
@@ -77,10 +77,10 @@ class PathInfer():
             if loc2 and current.get_name() != loc2["location"] or len(visited) != 0:
                 visited.append(current)
 
-            #print(f'Expanding node {current.get_name()}')
+            # print(f'Expanding node {current.get_name()} current depth: {current.get_distance()}')
 
-            if loc2 and current.get_name() == loc2["location"] and len(visited) > 0:
-                print("Reached end node!")
+            if ((loc2 and current.get_name() == loc2["location"]) or (self._end_loc and current.get_name() == self._end_loc)) and len(visited) > 0:
+                # print("Reached end node!")
                 found = True
                 return current
 
@@ -93,7 +93,7 @@ class PathInfer():
                 # cost and distance and time are equal in this case
                 # need to offset the depth limit by the current time 
                 # to ensure proper traversal
-                if cost > (limit + loc1["time"]):
+                if cost >= (limit + loc1["time"]) or cost > ( 10 + loc1["time"]):
                     continue
 
                 if not found or cost < edge.get_distance():
@@ -111,16 +111,34 @@ class PathInfer():
 
     def find_paths(self):
         path = None
+        prob = 1
         for i in range(len(self._player.timeline)-1):
             # print(f"Attempting to find path between {self._player.timeline[i]} and {self._player.timeline[i+1]}")
             tmp_path = self._find_path_between_nodes(self._player.timeline[i], self._player.timeline[i+1])
+            prob *= tmp_path.path_prob()
+
+            print(f'Found partial path for player {self._player.player}\n\tPath:{tmp_path.path()}')
 
             if not path:
                 path = tmp_path
             else:
-                path = path.join(tmp_path)
+                path = tmp_path.join(path)
+
+        
+        if not self._end_loc and len(self._player.timeline) > 0:
+            while path[-1][2] < int(self._game.time_found):
+                tmp_path = self._find_path_between_nodes(self._player.timeline[-1], last_time=int(self._game.time_found))
+                prob *= tmp_path.path_prob()
+
+                if path:
+                    path = tmp_path.join(path)
+                else:
+                    path = tmp_path
+
+        if type(path) != list:
+            path = path.path()
         # print(f'Attempting to join last path for timeline {self._player.timeline[i+1]}')
-        return path.join(self._find_path_between_nodes(self._player.timeline[i+1], last_time=int(self._game.time_found)))
+        return path, prob
 
         
 
@@ -134,8 +152,16 @@ class Path():
         self.player = player
         self.distance = -1
         self.parent = parent_path_node
+        self.children = []
+        
+        if self.parent:
+            self.parent._add_child(self)
+        
 
         # print(f'Creating Path node\n\tName: {self.node.get_name()}\n\tEdges: {self.edges}\n\tParent: {self.parent}')
+
+    def _add_child(self, child):
+        self.children.append(child)
 
     def get_edges(self):
         return self.edges
@@ -158,6 +184,20 @@ class Path():
     def convert_to_timeline(self):
         return [self.node.get_name(), self.player, self.distance]
 
+    def _path_prob_inc(self):
+        total = len(self.children) if self.children else 1
+        choose = 1
+
+        if self.parent:
+            return choose/total * self.parent._path_prob_inc()
+
+        return choose/total
+
+    def path_prob(self):
+        return self._path_prob_inc()
+
+
+
     def path(self):
         if not self.parent:
             return [self.convert_to_timeline()]
@@ -172,11 +212,53 @@ class Path():
 
     def join(self, new_path):
         my_path = self.path()
-        new_path = new_path.path()
+        new_path = new_path if type(new_path) == list else new_path.path()
 
-        if new_path[0] == my_path[-1]:
-            new_path.pop(0)
+        if new_path[-1] == my_path[0]:
+            new_path.pop()
 
-        my_path.extend(new_path)
+        new_path.extend(my_path)
 
-        return my_path
+        return new_path
+
+def get_player(timelines, player_num):
+    for player in timelines:
+        if player.player == player_num:
+            return player
+
+def Predict(GameTimeline, Graph, output=None):
+    victim = get_player(GameTimeline.timelines, GameTimeline.game.dead_player)
+    victim_path, vic_prob = PathInfer(Graph, GameTimeline.game, victim, GameTimeline.game.loc_found).find_paths()
+
+    if output:
+        print(f'Victime timeline:\n{victim}')
+        print(f'Predicted Path: {victim_path}')
+
+    time_died = victim_path[-1]
+    possible_killers = []
+
+    for player in GameTimeline.timelines:
+        if GameTimeline.game.dead_player == player.player:
+            continue
+
+        if output:
+            print(player)
+
+        p = PathInfer(Graph, GameTimeline.game, player)
+
+        path, prob = p.find_paths()
+
+        possible_match = list(filter(lambda a: a[2] == time_died[2], path))
+
+        if len(possible_match) > 0:
+            possible_killers.append( (possible_match[0][1], prob) )
+        
+        if output:
+            print(f'Found path for player {player.player}:\n\tProbability: {prob}\n\tPath: {path}')
+        
+    
+    possible_match.sort(key=lambda x: x[1], reverse=True)
+
+    killer, prob = possible_match.pop(0)
+
+    return killer
