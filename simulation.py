@@ -97,7 +97,7 @@ class Game():
     def __init__(self, data, exp_output=None):
         self.dead_player = data["Dead"]
         self.time_found = data["tFound"]
-        self.loc_found = data["Found"]
+        self.loc_found = data["Location"]
         self.events = data["Events"]
         self.killer = exp_output
 
