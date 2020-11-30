@@ -2,6 +2,7 @@ import json
 from typing import List
 from simulation import Graph, Game
 from test import load_graph
+from pathfinder import Predict
 
 """
 
@@ -195,6 +196,8 @@ MAIN METHOD BIOTCHES
 """
 if __name__ == "__main__":
     inputData: List[GameTimeline] = loadInputData('./graph-1/test_data/progress_report-10-1.json')
+    graph = load_graph("./graph-1/test_nodes.txt", "./graph-1/test_edges.txt")
+
     counter = 0
     for data in inputData:
         data.loadPlayerTimelines()
@@ -208,13 +211,8 @@ if __name__ == "__main__":
             print(f"location: {coin['location']}")
             print(f"time: {coin['time']}")
 
-    """
-    start = some node
-    goal = some node
-    graoh = loadGraph somhow
-    a = AStar_Solver( start, goal)
-    a.Solve()
-    for i in range(len(a.path)):
-        print(a.path[i]+" ")
-    """
+    for data in inputData:
+        predicted_killer = Predict(data, graph, True)
+
+        print(f"Predicted: {predicted_killer}\nActual: {data.killer}")
     pass
