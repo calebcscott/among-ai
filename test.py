@@ -121,10 +121,19 @@ if __name__ == "__main__":
     all_events = []
     buffer = 1
     output_folder = "."
+
+    increment = 0
     
     if "--all" in sys.argv:
         all = True
         sys.argv.pop(sys.argv.index("--all"))
+
+    if "--inc" in sys.argv:
+        index = sys.argv.index("--inc")
+        sys.argv.pop(index)
+        increment = int(sys.argv.pop(index))
+
+    
 
     node_file = sys.argv[1]
     edge_file = sys.argv[2]
@@ -143,12 +152,15 @@ if __name__ == "__main__":
         game_output.append((game_out, killer))
         all_events.append((all_e, killer))
 
+        if increment:
+            buffer += increment
+
     pprint.pprint(game_output)
 
-    with open(f'{output_folder}/{out_file}-{num_of_players}-{num_of_games}.json', "w") as file:
+    with open(f'{output_folder}/{out_file}-{num_of_players}-{num_of_games}-{buffer}.json', "w") as file:
         json.dump(game_output, file)
 
 
     if all:
-        with open(f'{output_folder}/{out_file}-{num_of_players}-{num_of_games}-all-events.json', "w") as file:
+        with open(f'{output_folder}/{out_file}-{num_of_players}-{num_of_games}-{buffer}-all-events.json', "w") as file:
             json.dump(all_events, file)
