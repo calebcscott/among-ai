@@ -258,7 +258,9 @@ if __name__ == "__main__":
             path_accrs = []
             path_corr = 0
             path_total = 0
+            leftover_pathing = list(range(1,11))
             for predict_player in output_paths:
+                leftover_pathing.pop(leftover_pathing.index(predict_player[0][1]))
                 truth = get_player(all_event_games[index].timelines, predict_player[0][1])
 
                 corr, tot = Compare_paths(predict_player, truth.timeline)
@@ -270,6 +272,10 @@ if __name__ == "__main__":
 
                 print(f'Player {predict_player[0][1]} path accuracy: {round(path_accr*100, 2)}%')
                 count -= 1
+
+            for i in leftover_pathing:
+                path_total += len(get_player(all_event_games[index].timelines, i).timeline)
+
             game_output = (predicted_killer, data.killer, path_corr, path_total, path_accrs)
             print(f'Did not predict the paths for {count} players')
 
