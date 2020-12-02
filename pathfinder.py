@@ -327,13 +327,13 @@ def Compare_paths(predicted_path, ground_truth):
     if not predicted_path:
         return 0.0
 
-    corrrect = 0
+    correct = 0
     total = len(predicted_path)
 
     for loc, _, time in predicted_path:
         matches = list(filter(lambda x: x["time"] == time, ground_truth))
 
         if matches and loc == matches[0]["location"]:
-            corrrect += 1
+            correct += 1
 
-    return corrrect / total
+    return correct, total

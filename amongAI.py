@@ -237,6 +237,7 @@ if __name__ == "__main__":
 
     index = 0
    
+    game_metrics = []
     print(f'A* algorithm')
     for data in inputData:
         
@@ -250,22 +251,46 @@ if __name__ == "__main__":
         if predicted_killer == data.killer:
             correct += 1
 
+        game_output = (predicted_killer, data.killer)
+
         if all_event_path.exists():
             count = 10
-
+            path_accrs = []
+            path_corr = 0
+            path_total = 0
             for predict_player in output_paths:
                 truth = get_player(all_event_games[index].timelines, predict_player[0][1])
 
-                path_accr = Compare_paths(predict_player, truth.timeline)
+                corr, tot = Compare_paths(predict_player, truth.timeline)
+                path_corr += corr
+                path_total += tot
+
+                path_accr = corr/tot
+                path_accrs.append((predict_player[0][1], path_accr))
 
                 print(f'Player {predict_player[0][1]} path accuracy: {round(path_accr*100, 2)}%')
                 count -= 1
-
+            game_output = (predicted_killer, data.killer, path_corr, path_total, path_accrs)
             print(f'Did not predict the paths for {count} players')
 
         index += 1
+        game_metrics.append(game_output)
 
     print(f'Accuracy: {round((correct/total)*100, 2)}%')
+
+    with open(f'{input_data[:-5]}-metrics.json', "w") as file:
+        json.dump((game_metrics, correct/total), file)
+
+    # Accuracy metrics = {
+    #       List of all games : [
+    #           "predicted",
+    #           "actual",
+    #           "total correct",
+    #           "total path node predictions",
+    #           "List of path accuracy percentages"
+    #       ]  ,
+    #       Accuracy of all games : 14%
+    # }
 
     
     pass
