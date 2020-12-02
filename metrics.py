@@ -1,5 +1,6 @@
 import json
 from sys import path
+import sys
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -43,19 +44,18 @@ def path_accuracy_plots(games):
     for idx, value in enumerate(path_accr_y):
         plt.scatter(x, value, c=colors[idx], label=f'{idx+1}')
 
-    xticks = [f'Game {i+1}' for i in x]
-    plt.xticks(x, labels=xticks)
+    
+    plt.xlabel("Number of Games")
 
     plt.legend()
     plt.title("Path Accuracy for each player arcoss all games")
     plt.ylabel("Accuracy percentage")
+    plt.xlabel("Number of Games")
     plt.show()
-
-    print(all_y)
 
     for xe, ye in list(zip(x, all_y)):
         plt.scatter([xe]*len(ye), ye)
-    plt.xticks(x, labels=xticks)
+    plt.xlabel("Number of Games")
     plt.title("Path Accuracy for each player arcoss all games")
     plt.ylabel("Accuracy percentage")
     plt.show()
@@ -63,8 +63,10 @@ def path_accuracy_plots(games):
     plt.scatter(x, average)
     plt.title("Average Path Accuracy")
     plt.ylabel("Accuracy percentage")
-    plt.xticks(x, labels=xticks)
+    plt.xlabel("Number of Games")
     plt.show()
+
+    return np.array(average)
 
 
 def plot_predictions(games):
@@ -79,40 +81,66 @@ def plot_predictions(games):
 
     plt.scatter(x, predicitions, color='red', label='Prediction')
     plt.scatter(x, actual, color='blue', label='Actual')
-
-    p = np.array(predicitions)
-    actual = np.array(actual)
-
-    
-
-    xtick = [f'Game {i+1}' for i in x]
-    plt.xticks(x, labels=xtick)
+    plt.xlabel("Number of Games")
     plt.title("Prediction vs. Actual across all games")
     plt.ylabel("ID of Player")
     plt.legend()
     plt.show()
 
+    p = np.array(predicitions)
+    actual = np.array(actual)
+
+    plt.hist(actual)
+    plt.title(f"Frequency of Actual Killer by Player in {len(games)} games")
+    plt.xlabel("Player number")
+    plt.ylabel("Number of times player was killer")
+    plt.show()
+
+    plt.hist(p)
+    plt.title(f"Frequency of Predicted Killer by Player in {len(games)} games")
+    plt.xlabel("Player number")
+    plt.ylabel("Number of times player was killer")
+    plt.show()
+    
+
     plt.scatter(x, np.abs(p - actual), color='green')
     plt.title("Difference between Actual and Prediction")
     plt.ylabel("Amount differed")
-    plt.xticks(x, labels=xtick)
+    plt.xlabel("Number of Games")
     plt.show()
 
 
 
+    return np.abs(p - actual)
 
-metrics_file = "./presentation-10-3-metrics.json"
-metrics_data = {}
 
-with open(metrics_file, "r") as file:
-    metrics_data = json.load(file)
 
-games, accr = metrics_data
+if __name__ == "__main__":
+    metrics_file = "./presentation-10-100-metrics.json"
+    metrics_data = {}
 
-path_accuracy_plots(games)
 
-plot_predictions(games)
+    if len(sys.argv) > 1:
+        metrics_file = sys.argv[1]
 
+    
+
+    with open(metrics_file, "r") as file:
+        metrics_data = json.load(file)
+
+    games, accr = metrics_data
+
+    avg_accr = path_accuracy_plots(games)
+
+    diff = plot_predictions(games)
+
+    # m, b = np.polyfit(diff, avg_accr, 1)
+
+    plt.scatter(diff, avg_accr, marker='o')
+    # plt.plot(diff, m*diff + b, color="red")
+    plt.show()
+
+    print(f"Total Accuracy of AI for {len(games)} was {accr}")
 
 
 
