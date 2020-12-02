@@ -1,10 +1,10 @@
 from simulation import BaseNode
-import random
 
 class AStarNode(BaseNode):
     def __init__(self, name, *args):
         self.distance = -1
         self.prev_node = None
+        self.h_distance = 0
 
         super().__init__(name, args)
 
@@ -17,8 +17,38 @@ class AStarNode(BaseNode):
     def set_prev_node(self, prev_node):
         self.prev_node = prev_node
 
+    def set_heuristic(self, graph, end_node):
+        visited = []
+        nodes = []
+
+        depth = {}
+
+        nodes.append(self)
+        visited.append(self)
+
+        depth[self.name] = 1
+
+        while len(nodes) > 0:
+            curr = nodes.pop(0)
+            
+            if curr.get_name() == end_node:
+                break
+
+            for edge, _ in graph.edges.get(curr.get_name()):
+                if edge not in visited:
+                    nodes.append(edge)
+                    visited.append(edge)
+                    depth[edge.get_name()] = depth[curr.get_name()] + 1
+
+        return depth[end_node]
+                    
+
+
+
+
+
     def heuristic(self):
-        return self.distance
+        return self.distance * self.h_distance
 
 class PathInfer():
     def __init__(self, Graph, Game, Player, end_loc=None):
@@ -40,6 +70,13 @@ class PathInfer():
 
     def _find_path_between_nodes(self, loc1, loc2=None, last_time=None):
         self._reset_graph()
+
+        # define heuristic as number of depths away from end node
+        # set heurisitic of all nodes before searching state tree
+        if loc2:
+            for node, _ in self._converted_graph :
+                node.set_heuristic(self._converted_graph, loc2["location"])
+
         # define depth limit of A*
         # print(f"Test of loc2: {loc2}")
         c = 3
@@ -229,6 +266,8 @@ def Predict(GameTimeline, Graph, output=None):
     else:
         victim_path, _ = PathInfer(Graph, GameTimeline.game, victim, GameTimeline.game.loc_found).find_paths()
 
+    output_paths = []
+
     if output:
         print(f'Victime timeline:\n{victim}')
         print(f'Predicted Path: {victim_path}')
@@ -263,9 +302,10 @@ def Predict(GameTimeline, Graph, output=None):
 
         all_players_prob.append((player.player, prob))
             
-        
+        output_paths.append(path)
         if output:
             print(f'Found path for player {player.player}:\n\tProbability: {prob}\n\tPath: {path}')
+            
         
     
     if len(possible_killers) > 0:
@@ -275,4 +315,24 @@ def Predict(GameTimeline, Graph, output=None):
         all_players_prob.sort(key=lambda x: x[1], reverse=True)
         killer, prob = all_players_prob.pop(0)
 
-    return killer, prob
+    if output:
+        return killer, prob, output_paths
+
+    return killer, prob, output_paths
+
+
+def Compare_paths(predicted_path, ground_truth):
+
+    if not predicted_path:
+        return 0.0
+
+    corrrect = 0
+    total = len(predicted_path)
+
+    for loc, _, time in predicted_path:
+        matches = list(filter(lambda x: x["time"] == time, ground_truth))
+
+        if matches and loc == matches[0]["location"]:
+            corrrect += 1
+
+    return corrrect / total
