@@ -2,8 +2,9 @@ import json
 from typing import List
 from simulation import Graph, Game
 from test import load_graph
-from pathfinder import Predict
+from pathfinder import Predict, Compare_paths, get_player
 import sys
+from pathlib import Path
 
 """
 
@@ -199,12 +200,24 @@ if __name__ == "__main__":
     input_data = './graph-1/test_data/progress_report-10-1.json'
     nodes = "./graph-1/test_nodes.txt"
     edges = "./graph-1/test_edges.txt"
+    all_event = './graph-1/test_data/progress_report-10-1-all-events.json'
+
+
+    
 
     if len(sys.argv) > 1:
         input_data = sys.argv[1]
+        all_event = sys.argv[1][:-5] + "-all-events.json"
 
     inputData: List[GameTimeline] = loadInputData(input_data)
+
+    all_event_path = Path(all_event)
+
+    if all_event_path.exists():
+        all_event_games = loadInputData(all_event)
+
     graph = load_graph(nodes, edges)
+
 
     counter = 0
     for data in inputData:
@@ -222,14 +235,37 @@ if __name__ == "__main__":
     total = 0
     correct = 0
 
+    index = 0
+   
     print(f'A* algorithm')
     for data in inputData:
-        predicted_killer, probability = Predict(data, graph)
+        
+        if all_event_path.exists():
+            all_event_games[index].loadPlayerTimelines()
+        
+        predicted_killer, probability, output_paths = Predict(data, graph)
         print(f"Predicted: {predicted_killer}\tActual: {data.killer}\n\tWith probability: {probability}")
 
         total += 1
         if predicted_killer == data.killer:
             correct += 1
 
+        if all_event_path.exists():
+            count = 10
+
+            for predict_player in output_paths:
+                truth = get_player(all_event_games[index].timelines, predict_player[0][1])
+
+                path_accr = Compare_paths(predict_player, truth.timeline)
+
+                print(f'Player {predict_player[0][1]} path accuracy: {round(path_accr*100, 2)}%')
+                count -= 1
+
+            print(f'Did not predict the paths for {count} players')
+
+        index += 1
+
     print(f'Accuracy: {round((correct/total)*100, 2)}%')
+
+    
     pass

@@ -1,5 +1,6 @@
 from simulation import BaseNode
 
+
 class AStarNode(BaseNode):
     def __init__(self, name, *args):
         self.distance = -1
