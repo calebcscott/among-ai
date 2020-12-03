@@ -40,6 +40,8 @@ def path_accuracy_plots(games):
 
     colors = ["black", "gray", "red", "orange", "saddlebrown", "yellow", "green", "lime", "cyan", "blue"]
     x = range(len(games))
+    x1 = range(int(len(games)/2))
+    x2 = range(int(len(games)/2), len(games))
 
     for idx, value in enumerate(path_accr_y):
         plt.scatter(x, value, c=colors[idx], label=f'{idx+1}')
@@ -60,7 +62,23 @@ def path_accuracy_plots(games):
     plt.ylabel("Accuracy percentage")
     plt.show()
 
+    print(f'Length of x1 {len(x1)}, length of average slice: {len(average[:x1[-1]])}')
+
     plt.scatter(x, average)
+    m1, b1 = np.polyfit(x1, average[:x1[-1]+1], 1)
+    m2, b2 = np.polyfit(x2, average[x1[-1]+1:], 1)
+    plt.plot(x1, m1*x1 +b1, 'r-')
+    plt.plot(x2, m2*x2 + b2, 'r-')
+    for i in x1:
+        x_local = (i, i)
+        y_local = (average[i], m1*i + b1)
+        plt.plot(x_local, y_local, 'b--')
+
+    for i in x2:
+        x_local = (i, i)
+        y_local = (average[i], m2*i + b2)
+        plt.plot(x_local, y_local, 'b--')
+
     plt.title("Average Path Accuracy")
     plt.ylabel("Accuracy percentage")
     plt.xlabel("Number of Games")
@@ -81,6 +99,12 @@ def plot_predictions(games):
 
     plt.scatter(x, predicitions, color='red', label='Prediction')
     plt.scatter(x, actual, color='blue', label='Actual')
+
+    for i in x:
+        x_local = (i, i)
+        y_local = (predicitions[i], actual[i])
+        plt.plot(x_local, y_local, 'y--')
+
     plt.xlabel("Number of Games")
     plt.title("Prediction vs. Actual across all games")
     plt.ylabel("ID of Player")
@@ -125,10 +149,16 @@ if __name__ == "__main__":
 
     
 
+    
+
     with open(metrics_file, "r") as file:
         metrics_data = json.load(file)
 
     games, accr = metrics_data
+
+    if "--accr" in sys.argv:
+        print(f"Total Accuracy of AI for {len(games)} was {accr}")
+        exit()
 
     avg_accr = path_accuracy_plots(games)
 
@@ -139,6 +169,8 @@ if __name__ == "__main__":
     plt.scatter(diff, avg_accr, marker='o')
     # plt.plot(diff, m*diff + b, color="red")
     plt.show()
+
+    
 
     print(f"Total Accuracy of AI for {len(games)} was {accr}")
 

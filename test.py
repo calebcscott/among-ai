@@ -147,6 +147,8 @@ if __name__ == "__main__":
     
     graph = load_graph(node_file, edge_file)
 
+    new_graph = False
+
     for i in range(num_of_games):
         game_out, killer, all_e = game(graph, num_of_players, buffer)
         game_output.append((game_out, killer))
@@ -154,6 +156,10 @@ if __name__ == "__main__":
 
         if increment:
             buffer += increment
+
+        if i > num_of_games/2 and "--compare" in sys.argv and not new_graph:
+            graph = load_graph(sys.argv[sys.argv.index("--compare") + 1], sys.argv[sys.argv.index("--compare") + 2])
+            new_graph = True
 
     pprint.pprint(game_output)
 

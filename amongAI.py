@@ -282,21 +282,13 @@ if __name__ == "__main__":
         index += 1
         game_metrics.append(game_output)
 
+        if index == len(inputData)/2 and "--compare" in sys.argv:
+            print(f"Accuracy: {correct/total}")
+            correct = 0
+            total = 0
+        
+
     print(f'Accuracy: {round((correct/total)*100, 2)}%')
 
     with open(f'{input_data[:-5]}-metrics.json', "w") as file:
         json.dump((game_metrics, correct/total), file)
-
-    # Accuracy metrics = {
-    #       List of all games : [
-    #           "predicted",
-    #           "actual",
-    #           "total correct",
-    #           "total path node predictions",
-    #           "List of path accuracy percentages"
-    #       ]  ,
-    #       Accuracy of all games : 14%
-    # }
-
-    
-    pass
